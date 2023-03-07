@@ -1,0 +1,10 @@
+.reload-button {
+    color: #ffffff;
+    margin: 0 16px 0 16px;
+    background-color: #ffffff00;
+    padding: 12px;
+    border: 2px solid #ffffff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

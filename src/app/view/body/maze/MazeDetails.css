@@ -1,0 +1,19 @@
+.maze-details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #0e0914;
+    margin: 80px 64px;
+}
+
+.maze-details-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #232025;
+}

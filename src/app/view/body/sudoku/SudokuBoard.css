@@ -1,0 +1,40 @@
+.sudoku-board {
+    display: flex;
+    flex-direction: column;
+    background-color: #7c1212;
+    padding: 3px;
+    margin: 0 20px 0 20px;
+}
+
+.sudoku-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sudoku-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #7c1212;
+    background-color: #ffffff;
+}
+
+.sudoku-cell--border-right {
+    border-right: 4px solid #7c1212;
+}
+
+.sudoku-cell--border-bottom {
+    border-bottom: 4px solid #7c1212;
+}
+
+.sudoku-cell--highlight {
+    background-color: #ffffcc;
+}
+
+.sudoku-cell--error {
+    background-color: #ffcccc;
+}

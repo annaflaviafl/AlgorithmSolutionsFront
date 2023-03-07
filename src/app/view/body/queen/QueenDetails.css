@@ -1,0 +1,47 @@
+.queen-details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #0e0914;
+    margin: 80px 64px;
+}
+
+.queen-details-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #232025;
+}
+
+.queen-details-title-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+    font-weight: 600;
+    color: #232025;
+}
+
+.queen-details-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 16px 0 32px 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #d8c56f;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d3ae07;
+}

@@ -1,0 +1,29 @@
+.queen-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: "center";
+    color: #d3ae07;
+}
+
+.square-black-style {
+    display: "inline-block";
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.square-white-style {
+    display: "inline-block";
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.board-style {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
