@@ -1,7 +1,7 @@
 import { Maze, NQueen, Sudoku } from "../domain/entities";
 import { AlgorithmRepository } from "../domain/services/protocols/algorithmRepository";
 
-class RemoteRepository extends AlgorithmRepository {
+class LocalRepository extends AlgorithmRepository {
     async getNQueen(numberQueens: number): Promise<NQueen> {
         const response = await fetch(`http://localhost:3000/nqueen/${numberQueens}`);
         const data = await response.json();
@@ -61,4 +61,4 @@ class RemoteRepository extends AlgorithmRepository {
     }
 };
 
-export default RemoteRepository;
+export default LocalRepository;
